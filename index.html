@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('./images/fondo.jpg');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .button1 {
+            background-image: url('./images/bandera1.jpg');
+            width: 160px;
+            height: 110px; 
+            background-size: cover;
+            background-position: center; 
+            background-repeat: no-repeat; 
+            border: none;
+            border-radius: 10px;
+            padding: 0; 
+            display: inline-block;
+            margin: 15px 2px;
+            cursor: pointer;
+        }
+
+        .button2 {
+            background-image: url('./images/bandera2.jpg');
+            width: 160px; 
+            height: 110px; 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            border: none;
+            border-radius: 10px;
+            padding: 0; 
+            display: inline-block;
+            margin: 15px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="./images/espanol.pdf" target="_blank">
+            <button class="button1"></button>
+        </a>
+        <a href="./images/ingles.pdf" target="_blank">
+            <button class="button2"></button>
+        </a>
+    </div>
+</body>
+</html>
