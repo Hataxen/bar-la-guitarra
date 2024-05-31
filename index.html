@@ -2,6 +2,7 @@
 <html>
 <head>
     <style>
+                
         body {
             background-image: url('./images/fondo.jpg');
             background-size: contain;
@@ -14,6 +15,12 @@
             margin: 0;
         }
 
+        @media (max-width: 1201px) {
+            body {
+                background-size: cover;
+            }
+        }
+
         .container {
             display: flex;
             flex-direction: column;
@@ -22,8 +29,8 @@
 
         .button1 {
             background-image: url('./images/bandera1.jpg');
-            width: 160px;
-            height: 110px; 
+            width: 200px;
+            height: 140px; 
             background-size: cover;
             background-position: center; 
             background-repeat: no-repeat; 
@@ -37,8 +44,8 @@
 
         .button2 {
             background-image: url('./images/bandera2.jpg');
-            width: 160px; 
-            height: 110px; 
+            width: 200px; 
+            height: 140px; 
             background-size: cover; 
             background-position: center; 
             background-repeat: no-repeat; 
